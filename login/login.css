@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url('/login/img_login/imagem\ de\ fundo\ 5\ .png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-sm-6{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    background-color: white; 
+    border-radius: 20px; 
+    border: 2px solid #ccc; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    padding-top: 50px; 
+}
+
+.card-img-top {
+    margin-bottom: 30px; 
+}
+
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 40px; 
+}
+
+.btn {
+    margin-bottom: 40px; 
+}
+
+.copyrigth {
+    margin-top: 20px; 
+}
+
+.btn {
+    display: inline-block; 
+    padding: 20px 50px; 
+    border-radius: 12px; 
+    background-color: #E86D6C; 
+    color: white; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+    transition: .1s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: .2s ease;
+}
+
+.btn:active {
+    transform: scale(0.8);
+    transition: .1s ease;
+}
