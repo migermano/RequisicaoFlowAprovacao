@@ -1,0 +1,138 @@
+:root {
+    --color-sidebar: #293d53;
+    --color-content: #3c5774;
+    --color-white: #f6f6f6;
+    --color-red: #E86D6C;
+    --color-green: #8CAA84; 
+    --color-box: #517290e9;
+    --color-box-maior: #5e7b9665;
+}
+
+body {
+    background-color: var(--color-content);
+}
+
+.container {
+    background-color: var(--color-content);
+    width: 85%;
+    padding: 100px 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.title h1 {
+    color: var(--color-red);
+}
+
+.titleBox {
+    width: 250px;
+    height: 59px;
+    background-color: var(--color-box);
+    display: flex;
+    align-items: center;
+}
+
+.titleBox p {
+    color: var(--color-white);
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.titleBox .img {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(217, 164, 248);
+    border-radius: 50%;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.dots .dot {
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.dot:nth-child(2) {
+    margin: 5px 0 5px 10px;
+}
+
+.content {
+    width: 40%;
+    background-color: var(--color-box-maior);
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 325px; 
+    margin-top: 100px; 
+}
+
+.content .card-title {
+    font-weight: 600;
+    color: var(--color-red);
+    text-align: center; 
+}
+
+.content .card-text {
+    color: var(--color-white);
+}
+
+.content h1 {
+    margin: 30px 0;
+    color: var(--color-white);
+    font-size: 28px;
+}
+
+.card-image {
+    max-width: 10%; 
+    height: auto; 
+    margin-top: 20px; 
+}
+
+button {
+    margin-top: 20px; 
+    padding: 10px;
+    background-color: var(--color-red);
+    border: 2px solid var(--color-red);
+    border-radius: 5px;
+    color: var(--color-white);
+    cursor: pointer;
+    font-size: 14px;
+    transition: .25s ease-in-out;
+    
+}
+
+button + button {
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: .25s ease-in-out;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 50px; 
+    font-size: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    margin: 0 5px;
+}
